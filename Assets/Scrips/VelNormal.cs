@@ -9,8 +9,7 @@ public class VelNormal : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            pw.VelNormal();
-            Debug.Log("Ruduces");
+            pw.VelNormal(); 
         }
     }
 }

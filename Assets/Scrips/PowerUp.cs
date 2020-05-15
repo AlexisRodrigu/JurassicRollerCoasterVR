@@ -32,25 +32,13 @@ public class PowerUp : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
-    void Start()
-    {
-      
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
   
     public void Acelerar()
     {
-        carrito.m_Speed = speedUp;
-        Debug.Log("Aceleras krnal");
+        carrito.m_Speed = speedUp; //Velocidad del carro aumentada al bajar
     }
     public void VelNormal()
     {
-        carrito.m_Speed = speedNormal;
+        carrito.m_Speed = speedNormal; //Velocidad normal del carro
     }
 }
